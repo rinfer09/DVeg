@@ -1,58 +1,69 @@
-/* ----------------title----------- */
 body {
     background-color: #d7fbe8;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-#title {
+
+
+/* ----------------title----------- */
+#title{
     background-color: #62d2a2;
     color: #d7fbe8;
 }
+
 .container-fluid{
     padding: 2% 5%;
 }
+
 #title a{
     color: #d7fbe8;
     margin-right: 30px;
 }
+
 #title img{
     height: 300px;
-    top: 150px;
     right: 5px;
+    top: 150px;
 }
-#title .navbar-brand{
-    font-family: 'Pacifico', cursive;
-    font-size: 2em;
-}
-#title .quotes{
-    font-size: 1.25em;
-    padding-top: 128px;
-    padding-right: 30px;
-}
-#title .quotes h1{
-    font-size: 3em;
-    font-family: 'Roboto', sans-serif;
 
-}
 #title .cow-quotes{
     color: #d7fbe8;;
     font-size: 2.1em;
     top: 280px;
     right: 0;
-    font-family: 'Roboto', sans-serif;
+}
 
+#title .navbar-brand{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+#title .quotes{
+    font-size: 1.25em;
+    padding-right: 30px;
+    padding-top: 128px;
+}
+
+#title .quotes h1{
+    font-size: 3em;
 }
 
 
 /*-------------- content--------- */
 #content {
     margin-top: 200px;
+    font-family: 'Lato', sans-serif;
 }
+
 #content h1{
     padding-bottom: 50px;
 }
+
 #content img{
-    width: 250px;
+    width: 300px;
+    padding: 10px;
 }
+
 #content .container{
     padding: 0 10%;
 }
@@ -61,17 +72,22 @@ body {
     margin-bottom: 100px;
 }
 
+
 /* --------footer-------------- */
 #footer{
     background-color: #62d2a2;
     color: #d7fbe8;
-    font-family: 'Roboto', sans-serif;
     padding-bottom: 30px;
+}
+
+#footer h3{
+    font-size: 25px;
 }
 #footer img{
     height: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
+
 #footer p{
     padding-top: 20px;
 }
